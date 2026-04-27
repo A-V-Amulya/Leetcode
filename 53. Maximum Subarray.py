@@ -2,8 +2,8 @@ class Solution(object):
     def maxSubArray(Self, Array):
         Sum = 0
         Max = float('-inf')
-        for i in range(len(Array)):
-            Sum += Array[i]
+        for i in Array:
+            Sum += i
             if Sum > Max:
                 Max = Sum
             if Sum < 0:
