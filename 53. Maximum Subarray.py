@@ -8,4 +8,4 @@ class Solution(object):
                 Max = Sum
             if Sum < 0:
                 Sum = 0 
-        return Max 
+        return Max
